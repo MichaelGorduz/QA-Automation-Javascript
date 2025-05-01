@@ -5,13 +5,13 @@
 // let myUndefined;
 
 const primitives = [
-    {name: "myString", value: "JavaScript"},
-    {name: "myNumber", value: 100000},
-    {name: "myAssumption", value: true},
-    {name: "myNull", value: null},
-    {name: "myUndefined", value: undefined },
-]
+  { name: "myString", value: "JavaScript" },
+  { name: "myNumber", value: 100000 },
+  { name: "myAssumption", value: true },
+  { name: "myNull", value: null },
+  { name: "myUndefined", value: undefined },
+];
 
-primitives.forEach(item => {
-    console.log(`${item.name} : ${item.value} (typeof: ${typeof item.value})`)
+primitives.forEach((item) => {
+  console.log(`${item.name} : ${item.value} (typeof: ${typeof item.value})`);
 });

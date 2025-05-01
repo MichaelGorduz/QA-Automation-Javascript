@@ -5,16 +5,13 @@ let negativeCount = 0;
 let zeroCount = 0;
 
 numbers.forEach((number) => {
-
-    if (number === 0) {
-        zeroCount++;
-    }
-    else if (number > 0) {
-        positiveCount++
-    } else {
-        negativeCount++;
-    }
-
+  if (number === 0) {
+    zeroCount++;
+  } else if (number > 0) {
+    positiveCount++;
+  } else {
+    negativeCount++;
+  }
 });
 
 console.log(`

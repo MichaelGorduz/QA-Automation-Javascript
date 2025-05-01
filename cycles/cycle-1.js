@@ -1,14 +1,14 @@
-const averageGrade = Math.floor(Math.random()*101);
+const averageGrade = Math.floor(Math.random() * 101);
 
 if (averageGrade < 60) {
-    console.log("Незадовільно");
+  console.log("Незадовільно");
 } else if (averageGrade < 71) {
-    console.log("Задовільно");
+  console.log("Задовільно");
 } else if (averageGrade <= 80) {
-    console.log("Добре");
+  console.log("Добре");
 } else if (averageGrade <= 90) {
-    console.log("Дуже добре");
+  console.log("Дуже добре");
 } else if (averageGrade <= 100) {
-    console.log("Відмінно");
+  console.log("Відмінно");
 }
 console.log(averageGrade);
