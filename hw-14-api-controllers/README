@@ -1,0 +1,2 @@
+To run DemoQa suite =>      npx jest demoqa.test.js
+To run BookStore suite =>   npx jest bookstore.test.js
